@@ -37,29 +37,27 @@ Ensure you have the following installed:
   npm install
 Set up Firebase:
 
-Create a new Firebase project at Firebase Console.
+. Create a new Firebase project at Firebase Console.
 
-Enable Firestore for real-time database.
+. Enable Firestore for real-time database.
 
-Enable Firebase Authentication and add Google as a sign-in provider.
+. Enable Firebase Authentication and add Google as a sign-in provider.
 
-Create a .env file in the root directory and add your Firebase config keys:
+. Create a .env file in the root directory and add your Firebase config keys:
 
-bash
-Copy code
-REACT_APP_FIREBASE_API_KEY=your-api-key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
-REACT_APP_FIREBASE_PROJECT_ID=your-project-id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-REACT_APP_FIREBASE_APP_ID=your-app-id
+
+  REACT_APP_FIREBASE_API_KEY=your-api-key
+  REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
+  REACT_APP_FIREBASE_PROJECT_ID=your-project-id
+  REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+  REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+  REACT_APP_FIREBASE_APP_ID=your-app-id
 
 Run the application:
 
-bash
-Copy code
-npm start
-Open http://localhost:3000 to view the app in the browser.
+     ```bash
+      npm run dev
+      Open http://localhost:3000 to view the app in the browser.
 
 Firebase Setup
 To configure Firebase, follow these steps:
@@ -75,6 +73,7 @@ Push your project to a GitHub repository.
 Link the repository to Vercel or Netlify.
 Ensure your Firebase configuration is set in the environment variables on the platform.
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
